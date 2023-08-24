@@ -40,6 +40,8 @@ void push(stack_t **stak, unsigned int n);
 
 void pall(stack_t **stak);
 
+void pint(stack_t **stak, unsigned int linum);
+
 
 
 

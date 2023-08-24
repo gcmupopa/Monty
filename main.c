@@ -58,6 +58,11 @@ int main(int argc, char *argv[])
 			pall(&stak);
 		}
 
+		else if (strcmp(opcode, "pint") == 0)
+		{
+			pint(&stak, linum);
+		}
+
 		else
 		{
 			fprintf(stderr, "L%d unknown instruction %s\n", linum, opcode);
