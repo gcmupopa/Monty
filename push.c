@@ -2,14 +2,15 @@
 
 /**
  * push()- push node on the stack
- * @stack: parameter
+ * @stak: parameter
  * @value: parameter
  * Return: nothing
  */
 
 void push(stack_t **stak, unsigned int value)
 {
-	stack_t *nunode = malloc(sizeof(stack_t));
+	stack_t *nunode;
+	nunode = malloc(sizeof(stack_t));
 	if (nunode == NULL)
 		exit(EXIT_FAILURE);
 
@@ -21,7 +22,6 @@ void push(stack_t **stak, unsigned int value)
 		nunode->prev = NULL;
 		*stak = nunode;
 	}
-	
 	else
 	{
 		nunode->prev = *stak;

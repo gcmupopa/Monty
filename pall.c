@@ -2,7 +2,7 @@
 
 /**
  * pall()- prints all data in stack
- * @stack: parameter
+ * @stak: parameter
  * Return: nothing
  */
 
