@@ -63,6 +63,11 @@ int main(int argc, char *argv[])
 			pint(&stak, linum);
 		}
 
+		else if (strcmp(opcode, "pop") == 0)
+		{
+			pop(&stak, linum);
+		}
+
 		else
 		{
 			fprintf(stderr, "L%d unknown instruction %s\n", linum, opcode);
