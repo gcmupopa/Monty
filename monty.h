@@ -44,6 +44,8 @@ void pint(stack_t **stak, unsigned int linum);
 
 void pop(stack_t **stak, unsigned int linum);
 
+void swap(stack_t **stak, unsigned int linum);
+
 
 
 

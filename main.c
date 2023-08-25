@@ -68,6 +68,11 @@ int main(int argc, char *argv[])
 			pop(&stak, linum);
 		}
 
+		else if (strcmp(opcode, "swap") == 0)
+		{
+			swap(&stak, linum);
+		}
+
 		else
 		{
 			fprintf(stderr, "L%d unknown instruction %s\n", linum, opcode);
